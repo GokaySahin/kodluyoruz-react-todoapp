@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  display: block;
+  align-items: center;
+  min-height: 110vh;
+}
+.todo-container
+{
+  width: 400px;
+  background-color: rgb(228, 171, 179);
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  display: block;
+}
+form button {
+  margin: 10px;
+}
+.todo-list {
+  margin: 0;
+  padding: 15px;
+}
+
+.todo-list li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 8px;
+  background:inherit;
+  font-size: 18px;
+  transition: 0.2s;
+  list-style-type: none;
+  display: inline-table;
+}
+.todo-list li:hover {
+  background: rgb(251, 243, 243);
+}
+.todo-list button {
+  padding: 3px 4px 3px 4px;
+  margin:5px;
+  float: right;
+  
+}
+.displayNone {
+  display: none;
+}
+.done {
+  text-decoration: line-through;
+}
